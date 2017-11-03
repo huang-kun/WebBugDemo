@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A2DB7251FAC8C44003594FC /* WebCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2DB7241FAC8C44003594FC /* WebCellNode.m */; };
+		1A2DB7271FAC9188003594FC /* web.html in Resources */ = {isa = PBXBuildFile; fileRef = 1A2DB7261FAC9188003594FC /* web.html */; };
+		1A2DB72A1FAC9611003594FC /* DemoWithUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2DB7291FAC9611003594FC /* DemoWithUIKit.m */; };
+		1A2DB72D1FAC9626003594FC /* DemoWithASDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2DB72C1FAC9626003594FC /* DemoWithASDK.m */; };
+		1A2DB7301FAC9956003594FC /* WebCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2DB72F1FAC9956003594FC /* WebCell.m */; };
+		1A2DB7331FAC999E003594FC /* WebLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2DB7321FAC999E003594FC /* WebLoader.m */; };
 		1A60D3AF1FAC88C700CA86A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A60D3AE1FAC88C700CA86A8 /* AppDelegate.m */; };
 		1A60D3B21FAC88C700CA86A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A60D3B11FAC88C700CA86A8 /* ViewController.m */; };
 		1A60D3B51FAC88C700CA86A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A60D3B31FAC88C700CA86A8 /* Main.storyboard */; };
@@ -15,6 +21,7 @@
 		1A60D3BD1FAC88C700CA86A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A60D3BC1FAC88C700CA86A8 /* main.m */; };
 		1A60D3C71FAC88C700CA86A8 /* WebBugDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A60D3C61FAC88C700CA86A8 /* WebBugDemoTests.m */; };
 		1A60D3D21FAC88C700CA86A8 /* WebBugDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A60D3D11FAC88C700CA86A8 /* WebBugDemoUITests.m */; };
+		C64E8AC001DC62B8C44FD01E /* Pods_WebBugDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFAAA3BBF78383969FE72D8 /* Pods_WebBugDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A2DB7231FAC8C44003594FC /* WebCellNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebCellNode.h; sourceTree = "<group>"; };
+		1A2DB7241FAC8C44003594FC /* WebCellNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebCellNode.m; sourceTree = "<group>"; };
+		1A2DB7261FAC9188003594FC /* web.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = web.html; sourceTree = "<group>"; };
+		1A2DB7281FAC9611003594FC /* DemoWithUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoWithUIKit.h; sourceTree = "<group>"; };
+		1A2DB7291FAC9611003594FC /* DemoWithUIKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoWithUIKit.m; sourceTree = "<group>"; };
+		1A2DB72B1FAC9626003594FC /* DemoWithASDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoWithASDK.h; sourceTree = "<group>"; };
+		1A2DB72C1FAC9626003594FC /* DemoWithASDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoWithASDK.m; sourceTree = "<group>"; };
+		1A2DB72E1FAC9956003594FC /* WebCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebCell.h; sourceTree = "<group>"; };
+		1A2DB72F1FAC9956003594FC /* WebCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebCell.m; sourceTree = "<group>"; };
+		1A2DB7311FAC999E003594FC /* WebLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebLoader.h; sourceTree = "<group>"; };
+		1A2DB7321FAC999E003594FC /* WebLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebLoader.m; sourceTree = "<group>"; };
 		1A60D3AA1FAC88C700CA86A8 /* WebBugDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebBugDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A60D3AD1FAC88C700CA86A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1A60D3AE1FAC88C700CA86A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +69,9 @@
 		1A60D3CD1FAC88C700CA86A8 /* WebBugDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebBugDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A60D3D11FAC88C700CA86A8 /* WebBugDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebBugDemoUITests.m; sourceTree = "<group>"; };
 		1A60D3D31FAC88C700CA86A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7671A1C2C3EC1FCF47C05C32 /* Pods-WebBugDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebBugDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebBugDemo/Pods-WebBugDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		ACFAAA3BBF78383969FE72D8 /* Pods_WebBugDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebBugDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39DDC50E5BBBA96C971A140 /* Pods-WebBugDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebBugDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebBugDemo/Pods-WebBugDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C64E8AC001DC62B8C44FD01E /* Pods_WebBugDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +100,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A2DB7341FAC9DF5003594FC /* DemoWithUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				1A2DB7281FAC9611003594FC /* DemoWithUIKit.h */,
+				1A2DB7291FAC9611003594FC /* DemoWithUIKit.m */,
+				1A2DB72E1FAC9956003594FC /* WebCell.h */,
+				1A2DB72F1FAC9956003594FC /* WebCell.m */,
+			);
+			path = DemoWithUIKit;
+			sourceTree = "<group>";
+		};
+		1A2DB7351FAC9E24003594FC /* DemoWithASDK */ = {
+			isa = PBXGroup;
+			children = (
+				1A2DB72B1FAC9626003594FC /* DemoWithASDK.h */,
+				1A2DB72C1FAC9626003594FC /* DemoWithASDK.m */,
+				1A2DB7231FAC8C44003594FC /* WebCellNode.h */,
+				1A2DB7241FAC8C44003594FC /* WebCellNode.m */,
+			);
+			path = DemoWithASDK;
+			sourceTree = "<group>";
+		};
 		1A60D3A11FAC88C700CA86A8 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +129,8 @@
 				1A60D3C51FAC88C700CA86A8 /* WebBugDemoTests */,
 				1A60D3D01FAC88C700CA86A8 /* WebBugDemoUITests */,
 				1A60D3AB1FAC88C700CA86A8 /* Products */,
+				77D70FEF0BD8BE372B3A70D8 /* Pods */,
+				2EAD81C4D499D95EDF619870 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +151,11 @@
 				1A60D3AE1FAC88C700CA86A8 /* AppDelegate.m */,
 				1A60D3B01FAC88C700CA86A8 /* ViewController.h */,
 				1A60D3B11FAC88C700CA86A8 /* ViewController.m */,
+				1A2DB7341FAC9DF5003594FC /* DemoWithUIKit */,
+				1A2DB7351FAC9E24003594FC /* DemoWithASDK */,
+				1A2DB7311FAC999E003594FC /* WebLoader.h */,
+				1A2DB7321FAC999E003594FC /* WebLoader.m */,
+				1A2DB7261FAC9188003594FC /* web.html */,
 				1A60D3B31FAC88C700CA86A8 /* Main.storyboard */,
 				1A60D3B61FAC88C700CA86A8 /* Assets.xcassets */,
 				1A60D3B81FAC88C700CA86A8 /* LaunchScreen.storyboard */,
@@ -132,6 +183,23 @@
 			path = WebBugDemoUITests;
 			sourceTree = "<group>";
 		};
+		2EAD81C4D499D95EDF619870 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACFAAA3BBF78383969FE72D8 /* Pods_WebBugDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77D70FEF0BD8BE372B3A70D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7671A1C2C3EC1FCF47C05C32 /* Pods-WebBugDemo.debug.xcconfig */,
+				F39DDC50E5BBBA96C971A140 /* Pods-WebBugDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A60D3D61FAC88C700CA86A8 /* Build configuration list for PBXNativeTarget "WebBugDemo" */;
 			buildPhases = (
+				2B2434E0DDD81879A2D0A06F /* [CP] Check Pods Manifest.lock */,
 				1A60D3A61FAC88C700CA86A8 /* Sources */,
 				1A60D3A71FAC88C700CA86A8 /* Frameworks */,
 				1A60D3A81FAC88C700CA86A8 /* Resources */,
+				5C8CFEA321668E55CCD565EE /* [CP] Embed Pods Frameworks */,
+				9D0237D44ECF90A5AB17B74A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A60D3BA1FAC88C700CA86A8 /* LaunchScreen.storyboard in Resources */,
+				1A2DB7271FAC9188003594FC /* web.html in Resources */,
 				1A60D3B71FAC88C700CA86A8 /* Assets.xcassets in Resources */,
 				1A60D3B51FAC88C700CA86A8 /* Main.storyboard in Resources */,
 			);
@@ -260,13 +332,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B2434E0DDD81879A2D0A06F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WebBugDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C8CFEA321668E55CCD565EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WebBugDemo/Pods-WebBugDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
+				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Texture/AsyncDisplayKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AsyncDisplayKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebBugDemo/Pods-WebBugDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D0237D44ECF90A5AB17B74A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebBugDemo/Pods-WebBugDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1A60D3A61FAC88C700CA86A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A2DB7251FAC8C44003594FC /* WebCellNode.m in Sources */,
 				1A60D3B21FAC88C700CA86A8 /* ViewController.m in Sources */,
 				1A60D3BD1FAC88C700CA86A8 /* main.m in Sources */,
+				1A2DB7331FAC999E003594FC /* WebLoader.m in Sources */,
+				1A2DB7301FAC9956003594FC /* WebCell.m in Sources */,
+				1A2DB72A1FAC9611003594FC /* DemoWithUIKit.m in Sources */,
+				1A2DB72D1FAC9626003594FC /* DemoWithASDK.m in Sources */,
 				1A60D3AF1FAC88C700CA86A8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,10 +565,11 @@
 		};
 		1A60D3D71FAC88C700CA86A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7671A1C2C3EC1FCF47C05C32 /* Pods-WebBugDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NN3EQ4AVKZ;
+				DEVELOPMENT_TEAM = CD76TM5QAC;
 				INFOPLIST_FILE = WebBugDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.huangkun.WebBugDemo;
@@ -442,10 +580,11 @@
 		};
 		1A60D3D81FAC88C700CA86A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F39DDC50E5BBBA96C971A140 /* Pods-WebBugDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NN3EQ4AVKZ;
+				DEVELOPMENT_TEAM = CD76TM5QAC;
 				INFOPLIST_FILE = WebBugDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.huangkun.WebBugDemo;
